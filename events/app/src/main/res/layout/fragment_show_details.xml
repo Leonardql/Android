@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bh">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="266dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="73dp"
+        android:gravity="center"
+        android:text="@string/details"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnShowArtists"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_add_guest_black_24dp"
+
+        android:paddingBottom="10dp"
+        android:text="@string/show_artists"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnShowGuests"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_add_artists_black_24dp"
+        android:paddingBottom="10dp"
+        android:text="@string/show_guests"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnShowTickets"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_add_description__black_50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/show_tickets"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowArtists" />
+
+    <Button
+        android:id="@+id/btnShowOrders"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_add_tickets_24dp"
+        android:paddingBottom="10dp"
+        android:text="@string/show_orders"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowGuests" />
+
+    <Button
+        android:id="@+id/btnShowTestimonial"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_show_comment_black_50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/show_testimonials"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowOrders" />
+
+    <Button
+        android:id="@+id/btnShowInvintations"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="216dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic__show_email_black_50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/show_invintations"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowTickets" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_show_events"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/show__events"/>
+
+    <item
+        android:id="@+id/nav_show_orders"
+        android:icon="@drawable/ic_show_events_black_24dp"
+        android:title="@string/show_details" />
+
+    <item
+        android:id="@+id/nav_create_event"
+        android:icon="@drawable/ic_create_new_event_black_24dp"
+        android:title="@string/create_event"/>
+
+    <item
+        android:id="@+id/nav_show_users"
+        android:icon="@drawable/ic_show_users_50dp"
+        android:title="@string/show_users"/>
+</menu>

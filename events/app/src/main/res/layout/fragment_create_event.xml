@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bh">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="266dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="73dp"
+        android:gravity="center"
+        android:text="@string/create_event"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddEvent"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_add_description__black_50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/add_nevent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnAddArtists"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_add_artists_black_24dp"
+        android:paddingBottom="10dp"
+        android:text="@string/add_artists"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddSpecialGuest"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_add_guest_black_24dp"
+        android:paddingBottom="10dp"
+        android:text="@string/add_nspecial_guest"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bntAddTickets"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_add_tickets_24dp"
+        android:paddingBottom="10dp"
+        android:text="@string/add_tickets"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="193dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/confirm_button"
+        android:text="@string/edit"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

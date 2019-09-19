@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bh">
+
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="266dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="73dp"
+        android:gravity="center"
+        android:text="@string/update_event"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpdateDescription"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_show_events_50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/update_description"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnUpdateArtist"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_create_new_event_50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/update_artists"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnUpdateGuest"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_show_orders_50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/update_special_guest"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpdateTicket"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/dashboard_button"
+        android:drawableBottom="@drawable/ic_update_ticket_50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/update_tickets"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
