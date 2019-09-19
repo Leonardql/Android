@@ -1,6 +1,6 @@
 # Events Manager NMA
-
-
+![home](https://imgur.com/olYjHF6.png =3700x)
+![home](https://imgur.com/Ii5kMu3.png =3700x)
 
 Een applicatie met volgende functionaliteiten:
 
