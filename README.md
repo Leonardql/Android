@@ -71,15 +71,15 @@ Connectie aangemaakt tussen android studio en nodejs.
 
 ## TODOs
 
-- Toevoegen van evenementen.
+- Toevoegen van evenementen. - Done
 
-- Aanmaken en het wijzigen van evenementen.
+- Aanmaken en het wijzigen van evenementen. - Done
 
-- Order lijst
+- Order lijst - Done
 
-- Gegevens gebruikers kunnen bekijken.
+- Gegevens gebruikers kunnen bekijken. - Done 
 
-- Lijst van vorige evenementen bekijken.
+- Lijst van vorige evenementen bekijken. - Done
 
 ## Wireframes
 
